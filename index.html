@@ -8,29 +8,241 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>My Portfolio</title>
 </head>
-<body>
+<body class="container">
     
-    <nav class="nav bg-gradient justify-content-around align-items-center container rounded-bottom">
-        <span class="nav-link active text-info h3 bg-secondary rounded" aria-current="page" href="#"><i class="bi bi-chevron-left"></i><i class="bi bi-chevron-right"></i>My Portfolio<i class="bi bi-chevron-left"></i>/<i class="bi bi-chevron-right"></i></span>
-        <a class="nav-link text-white" href="#" style="font-size: 25px;">About Me</a>
-        <a class="nav-link text-white" href="#" style="font-size: 25px;">Works & Proyects</a>
-    </nav>
+  <nav class="navbar navbar-dark shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">I.G</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-danger px-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <div class="container position-relative align-items-center rounded" style="margin-top: 180px;">
-        <div>
-        <img class="border border-light mx-auto d-block rounded-circle" width="200px" height="200px" src="https://scontent.faep21-1.fna.fbcdn.net/v/t1.6435-9/124479363_3582078018516211_9081052282592557775_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeGFJHqwDaJ46Aa5fn6HkxpuCMpn_9HyeUEIymf_0fJ5QegtJVix8jmmVbO7XVpDimVp5V1YU2DX9bF34LnjvnOc&_nc_ohc=R5MclEx1YucAX_b_mh0&_nc_ht=scontent.faep21-1.fna&oh=27f5c367d1a0b0a8188dafe546b1b1b6&oe=60DE8EEE" alt="Profile-pic">
+<!-- ---------------------------------------- -->
+
+  <section class="home" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img width="400" height="400px" src="./profile.png" alt="Profile Pic">
+          </div>
         </div>
-        <h2 class="text-white text-center" style=" font-family:'Caveat', cursive; font-size: 40px;">IVAN GOMEZ</h2>
-        <h3 class="text-center text-info">A creative Freelancer & Full Stack Developer</h3>
+        <div class="col-md-6 order-md-first mt-5 mt-md-0">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web developer</h1>
+            <h2 class="fs-4 text-light">Ivan Gomez</h2>
+            <p class="mt-4 text-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fuga neque ullam ad commodi dolore cum maiores qui eligendi.</p>
+            <a class="btn btn-danger px-3 mt-3" href="#portolio">My Works</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container" style="background-color: #adb5bd; margin-top: 80px;">
-        <h3 class="">About me</h3>
+  </section>
+
+  <!-- ------------------------------------------- -->
+
+  <section class="about" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5 text-light">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3 text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit et magnam dolor possimus. Totam debitis, in tenetur alias quis voluptas placeat, sapiente necessitatibus officiis dolorem autem, quae quia consequuntur?</p>
+          </div>
+          <div class="row text-center text-uppercase my-3">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold text-danger">3</h4>
+                <p class="text-muted">Projects Completed</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold text-danger">3</h4>
+                <p class="text-muted">Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold text-danger">3</h4>
+                <p class="text-muted">Positive Reviews</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a class="btn btn-danger me-5 px-3" href="">Download CV</a>
+              <div class="social-links">
+                <a class="text-light me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-light me-2" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-light me-2" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-light me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6 text-light">HTML</h3>
+            <div class="progress" style="height: 3px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6 text-light">CSS</h3>
+            <div class="progress" style="height: 3px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6 text-light">Bootstrap</h3>
+            <div class="progress" style="height: 3px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <h3 class="fs-6 text-light">JavaScript</h3>
+            <div class="progress" style="height: 3px;">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+<!-- ---------------------------------------- -->
+  <section class="services py-5" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5 text-light">What I Do</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-dark">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-code"></i>
+            </div>
+              <h3 class="fs-5 py-2 text-light">Web Development</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-dark">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+              <h3 class="fs-5 py-2 text-light">Creative Desing</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-dark">
+            <div class="icon my-3 text-danger fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+              <h3 class="fs-5 py-2 text-light">Photoshop</h3>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+<!-- ------------------------------------ -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.js"></script>
+<section class="portfolio py-5" id="portfolio">
+<div class="container-lg py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="section-title text-center">
+        <h2 class="fw-bold mb-5 text-light">Works</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="cold-md-6 col-lg-4">
+      <div class="portfolio-item">
+        <img class="w-100 img-thumbnail" src="./images/anochecerbar.jpg" alt="portfolio item">
+        <h3 class="text-capitalize fs-5 my-2 text-light"> only HTML & CSS</h3>
+        <p class="mb-4"><a class="text-danger text-decoration-none" target="_blank" href="https://gomezivan94.github.io/anochecerbar/">Live Demo</a></p>
+      </div>
+    </div>
+    <div class="cold-md-6 col-lg-4">
+      <div class="portfolio-item">
+        <img class="w-100 img-thumbnail" src="./images/code.jpg" alt="portfolio item">
+        <h3 class="text-capitalize fs-5 my-2 text-light">Anochecer Bar</h3>
+        <p class="mb-4"><a class="text-danger text-decoration-none" target="_blank" href="https://github.com/gomezivan94/anochecerbar/blob/main/index.html">Live Demo</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ---------------------------------------------- -->
+
+<section class="testimonials py-5" id="testimonials">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5 text-light">Testimonials</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-xl-7">
+        <div class="testi-item bg-dark shadow-sm rounded p-4">
+          <div class="testi-autor-info d-flex align-items-center">
+            <img style="width: 150px;" class="img-thumbnail rounded-circle" src="./images/testimonials/rodri.jpg" alt="Author">
+            <div class="autor ms-3">
+              <h3 class="text-light fs-6 mb-1">Rodrigo Penela</h3>
+              <p class="text-danger m-0">Full Stack Web Developer</p>
+            </div>
+          </div>
+          <p class="text-light mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam mollitia deserunt qui,</p>
+          <div class="rating">
+            <i class="fas fa-star text-danger"></i>
+            <i class="fas fa-star text-danger"></i>
+            <i class="fas fa-star text-danger"></i>
+            <i class="fas fa-star text-danger"></i>
+            <i class="fas fa-star text-danger"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.js"></script>
 </body>
 </html>

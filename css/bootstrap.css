@@ -52,6 +52,7 @@ body {
   line-height: 1.5;
   color: #212529;
   background: url(http://wallpoper.com/images/00/24/23/64/minimalistic-pattern_00242364.jpg);
+  background-attachment: fixed;
   background-size: cover ;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
